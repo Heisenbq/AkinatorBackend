@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="flpproject.akinator.AkinatorApplicationTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2025-05-27T20:01:46.906Z" hostname="WIN-OA0CFLT6FA8" time="0.279">
+  <properties/>
+  <testcase name="contextLoads()" classname="flpproject.akinator.AkinatorApplicationTests" time="0.279"/>
+  <system-out><![CDATA[23:01:43.056 [Test worker] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils -- Could not detect default configuration classes for test class [flpproject.akinator.AkinatorApplicationTests]: AkinatorApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+23:01:43.164 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper -- Found @SpringBootConfiguration flpproject.akinator.AkinatorApplication for test class flpproject.akinator.AkinatorApplicationTests
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+
+ :: Spring Boot ::                (v3.5.0)
+
+2025-05-27T23:01:43.535+03:00  INFO 26880 --- [akinator] [    Test worker] f.akinator.AkinatorApplicationTests      : Starting AkinatorApplicationTests using Java 17.0.6 with PID 26880 (started by user in D:\3курс\sem_2\akinator)
+2025-05-27T23:01:43.537+03:00  INFO 26880 --- [akinator] [    Test worker] f.akinator.AkinatorApplicationTests      : No active profile set, falling back to 1 default profile: "default"
+2025-05-27T23:01:44.216+03:00  INFO 26880 --- [akinator] [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-05-27T23:01:44.283+03:00  INFO 26880 --- [akinator] [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 57 ms. Found 7 JPA repository interfaces.
+2025-05-27T23:01:44.668+03:00  INFO 26880 --- [akinator] [    Test worker] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-05-27T23:01:44.715+03:00  INFO 26880 --- [akinator] [    Test worker] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.15.Final
+2025-05-27T23:01:44.748+03:00  INFO 26880 --- [akinator] [    Test worker] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-05-27T23:01:44.995+03:00  INFO 26880 --- [akinator] [    Test worker] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-05-27T23:01:45.024+03:00  INFO 26880 --- [akinator] [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-05-27T23:01:45.171+03:00  INFO 26880 --- [akinator] [    Test worker] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@369a95a5
+2025-05-27T23:01:45.173+03:00  INFO 26880 --- [akinator] [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-05-27T23:01:45.205+03:00  WARN 26880 --- [akinator] [    Test worker] org.hibernate.orm.deprecation            : HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-05-27T23:01:45.221+03:00  INFO 26880 --- [akinator] [    Test worker] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 16.2
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-05-27T23:01:45.920+03:00  INFO 26880 --- [akinator] [    Test worker] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-05-27T23:01:45.960+03:00  INFO 26880 --- [akinator] [    Test worker] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-05-27T23:01:46.452+03:00  WARN 26880 --- [akinator] [    Test worker] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-05-27T23:01:46.504+03:00  INFO 26880 --- [akinator] [    Test worker] o.s.v.b.OptionalValidatorFactoryBean     : Failed to set up a Bean Validation provider: jakarta.validation.NoProviderFoundException: Unable to create a Configuration, because no Jakarta Bean Validation provider could be found. Add a provider like Hibernate Validator (RI) to your classpath.
+2025-05-27T23:01:46.894+03:00  INFO 26880 --- [akinator] [    Test worker] f.akinator.AkinatorApplicationTests      : Started AkinatorApplicationTests in 3.605 seconds (process running for 4.544)
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
